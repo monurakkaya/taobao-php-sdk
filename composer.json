@@ -1,0 +1,19 @@
+{
+    "name": "monurakkaya/taobao-php-sdk",
+    "description": "Composer supported Mirror taobao api official package",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Monur",
+            "email": "monurakkaya@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.0.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/aliyun/", "src/top/", "src/dingtalk/", "src/QimenCloud/"]
+    }
+}
